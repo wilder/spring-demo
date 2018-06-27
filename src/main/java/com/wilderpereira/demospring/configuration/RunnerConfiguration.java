@@ -2,6 +2,7 @@ package com.wilderpereira.demospring.configuration;
 
 import com.wilderpereira.demospring.domain.Student;
 import com.wilderpereira.demospring.repository.StudentRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
